@@ -1,0 +1,45 @@
+# ==========================================
+# SEGURIDAD CRÍTICA (Credenciales y Llaves)
+# ==========================================
+# Archivos de llaves privadas de Firebase y Google Cloud
+firebase-key.json
+*.json
+!requirements.txt
+
+# Archivos de configuración local y variables de entorno
+.env
+.flaskenv
+instance/
+secrets/
+
+# ==========================================
+# ENTORNOS VIRTUALES (Dependencias Locales)
+# ==========================================
+# Ignorar las carpetas donde instalas Flask, Firebase, etc., localmente
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+
+# ==========================================
+# ARCHIVOS DE SISTEMA Y CACHÉ
+# ==========================================
+# Caché de Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+.idea/
